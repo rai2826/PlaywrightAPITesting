@@ -1,0 +1,33 @@
+17794
+======================POST API Response===============================================
+{
+  bookingid: 17794,
+  booking: {
+    firstname: 'Dagmar',
+    lastname: 'Treutel',
+    totalprice: 587,
+    depositpaid: false,
+    bookingdates: { checkin: '2020-07-02', checkout: '2020-07-09' },
+    additionalneeds: 'accbbcbbbb'
+  }
+}
+======================token Generated to be used in next PUT call======================
+1fc5fecc073b84a
+======================patchAPI Response==================================================
+{
+  firstname: 'Shalini',
+  lastname: 'Treutel',
+  totalprice: 587,
+  depositpaid: false,
+  bookingdates: { checkin: '2020-07-02', checkout: '2020-07-09' },
+  additionalneeds: 'accbbcbbbb'
+}
+======================Get API after PATCH Response=========================================
+{
+  firstname: 'Shalini',
+  lastname: 'Treutel',
+  totalprice: 587,
+  depositpaid: false,
+  bookingdates: { checkin: '2020-07-02', checkout: '2020-07-09' },
+  additionalneeds: 'accbbcbbbb'
+}

@@ -1,0 +1,33 @@
+17920
+======================POST API Response===============================================
+{
+  bookingid: 17920,
+  booking: {
+    firstname: 'Bailee',
+    lastname: 'Jenkins',
+    totalprice: 659,
+    depositpaid: true,
+    bookingdates: { checkin: '2020-07-04', checkout: '2020-07-17' },
+    additionalneeds: 'ccaccaabcb'
+  }
+}
+======================token Generated to be used in next PUT call======================
+f45568d8511cd13
+======================putAPI Response==================================================
+{
+  firstname: 'Gaurav',
+  lastname: 'Rai',
+  totalprice: 1000,
+  depositpaid: true,
+  bookingdates: { checkin: '2018-01-01', checkout: '2019-01-01' },
+  additionalneeds: 'super bowls'
+}
+======================Get API after PUT Response=========================================
+{
+  firstname: 'Gaurav',
+  lastname: 'Rai',
+  totalprice: 1000,
+  depositpaid: true,
+  bookingdates: { checkin: '2018-01-01', checkout: '2019-01-01' },
+  additionalneeds: 'super bowls'
+}

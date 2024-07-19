@@ -1,0 +1,22 @@
+17793
+======================POST API Response===============================================
+{
+  bookingid: 17793,
+  booking: {
+    firstname: 'Nia',
+    lastname: 'Windler',
+    totalprice: 346,
+    depositpaid: false,
+    bookingdates: { checkin: '2020-07-02', checkout: '2020-07-08' },
+    additionalneeds: 'cbbbcababc'
+  }
+}
+======================Get API Response=================================================
+{
+  firstname: 'Nia',
+  lastname: 'Windler',
+  totalprice: 346,
+  depositpaid: false,
+  bookingdates: { checkin: '2020-07-02', checkout: '2020-07-08' },
+  additionalneeds: 'cbbbcababc'
+}

@@ -1,0 +1,13 @@
+17919
+======================POST API Response===============================================
+{
+  bookingid: 17919,
+  booking: {
+    firstname: 'Makenzie',
+    lastname: 'Fay',
+    totalprice: 308,
+    depositpaid: true,
+    bookingdates: { checkin: '2020-07-04', checkout: '2020-07-16' },
+    additionalneeds: 'bbabbabccc'
+  }
+}

@@ -1,0 +1,18 @@
+17795
+======================POST API Response===============================================
+{
+  bookingid: 17795,
+  booking: {
+    firstname: 'Kali',
+    lastname: 'Mayert',
+    totalprice: 897,
+    depositpaid: false,
+    bookingdates: { checkin: '2020-07-04', checkout: '2020-07-07' },
+    additionalneeds: 'aaccaababa'
+  }
+}
+======================token Generated to be used in next PUT call======================
+65e7dd94ca984d0
+======================deleteAPI Response==================================================
+Created
+======================Get API after DELETE Response=========================================
